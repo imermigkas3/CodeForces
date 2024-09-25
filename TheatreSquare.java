@@ -4,13 +4,14 @@ import java.io.*;
 public class TheatreSquare {
     public static void main(String[] args) throws IOException{
         Scanner sc = new Scanner(System.in);
-        long n = sc.nextInt();
-        long m = sc.nextInt();
-        long a = sc.nextInt();
-        long numWidth =  Math.ceil(n / a);
-        long numHeight =  Math.ceil(m / a);
-        long ans = numWidth * numHeight;
-        System.out.printf("%.0f", ans);
+        double n = sc.nextInt();
+        double m = sc.nextInt();
+        double a = sc.nextInt();
+        double numWidth =  Math.ceil(n / a);
+        double numHeight =  Math.ceil(m / a);
+        long ans = (long) (numWidth * numHeight);
+        System.out.println(ans);
+        
 
 
     
